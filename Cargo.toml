@@ -1,0 +1,8 @@
+[package]
+name = "validator-helper-attribute-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+validator = { version = "0.18.1", features = ["derive"] }
+test-macro = { path = "test-macro" }
